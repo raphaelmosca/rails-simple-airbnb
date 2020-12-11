@@ -1,0 +1,13 @@
+<%= form_for @flat do |t|  %>
+<%= t.label :name, "Enter a name" %>
+<%= t.text_field :name  %>
+<%= t.label :address, "Enter an address" %>
+<%= t.text_field :address  %>
+<%= t.label :description, "Enter a description" %>
+<%= t.text_field :description  %>
+<%= t.label :price_per_night, "Price" %>
+<%= t.text_field :price_per_night  %>
+<%= t.label :number_of_guests, "Guests" %>
+<%= t.text_field :number_of_guests  %>
+<%= t.submit %>
+<% end  %>
